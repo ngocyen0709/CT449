@@ -23,6 +23,6 @@ exports.create =  (req, res) => {
     exports.deleteAll =  (req, res) => {
     res.send({ message: "deleteAll hander" });
     };
-    exports.findAllFavorit =(req, res) => {
+    exports.findAllFavorite =(req, res) => {
         res.send({message: "finAllFavorite handler"})
     };
